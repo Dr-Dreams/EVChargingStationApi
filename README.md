@@ -10,20 +10,20 @@ This is a Java Spring Boot application that provides APIs to perform CRUD operat
 ### Installation
 1. Clone this repository to your local machine using git clone https://github.com/your_username/EVChargingAPI.git
     ```bash
-    https://github.com/Dr-Dreams/BANK-API.git
+    https://github.com/Dr-Dreams/EVChargingStationApi.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd EVChargingAPI
+    cd EVChargingStationApi
     ```
 3. Open the project in your IDE(Suggestion : - Intellij IDEA, VS-CODE)
-    
+
     - [Intellij](https://www.jetbrains.com/idea/download/#section=mac)
     - [VS-CODE](https://code.visualstudio.com/download)
-    
+
 4. Open application.properties
     ```bash
-    EVChargingAPI/src/main/resoucres
+   /src/main/resoucres
     ```
 5. Set up your MySQL database and update the application.properties file with your database details
     ```
@@ -35,7 +35,7 @@ This is a Java Spring Boot application that provides APIs to perform CRUD operat
     ```
     mvn spring-boot:run
     ```
-7. The application should now be accessible at 
+7. The application should now be accessible at
     ```
     http://localhost:8080/api-docs
     or
@@ -58,6 +58,3 @@ This is a Java Spring Boot application that provides APIs to perform CRUD operat
 [stationId, stationName, stationImage, stationPricing, stationAddress]
 ### Authors
 - [Mausam (Dr-Dreams)](https://github.com/Dr-Dreams)
-
-
-
