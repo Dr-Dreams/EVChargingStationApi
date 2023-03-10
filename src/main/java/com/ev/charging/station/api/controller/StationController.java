@@ -113,7 +113,7 @@ public class StationController {
     ////////-----------Getting the list of stations sorted by a specified parameter and sorting order.--------//////////
 
 
-    @GetMapping(params = {"sort", "param"}, headers = "methodType=sort")
+    @GetMapping(params = {"sort", "param"})
     @Operation(summary = "Fetch stations by sorting", description = "Fetches a list of stations sorted by a specified parameter and sorting order."
             , operationId = "1")
     @ApiResponses(value = {
