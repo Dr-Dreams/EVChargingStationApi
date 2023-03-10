@@ -8,7 +8,7 @@ This is a Java Spring Boot application that provides APIs to perform CRUD operat
 - MySQL database
 - Spring Boot 3.0.4
 ### Installation
-1. Clone this repository to your local machine using git clone https://github.com/your_username/EVChargingAPI.git
+1. Clone this repository to your local machine using git clone
     ```bash
     https://github.com/Dr-Dreams/EVChargingStationApi.git
     ```
